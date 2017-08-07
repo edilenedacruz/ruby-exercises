@@ -32,5 +32,11 @@ class RetirementTest < Minitest::Test
 
   def test_it_errors_when_retirement_age_is_negative
     # write your test here
+    retire = Retirement.new
+
+    result = retire.calculate(25, -65)
+    expected = "Error. Retirement ge cannot be negative."
+
+    assert_equal expected, result
   end
 end
