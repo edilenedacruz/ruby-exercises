@@ -8,6 +8,6 @@ class ReadingList
   end
 
   def <<(book)
-    @books << book
+    @books += ([] << book)
   end
 end
