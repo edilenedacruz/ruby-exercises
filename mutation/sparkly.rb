@@ -1,10 +1,14 @@
 class Sparkly
   def initialize(text)
-    @text = text << sparkles
+    @text = text
   end
 
   def to_s
-    @text
+    if @text.include?(" *.*:*.*")
+      @text
+    else
+      @text += sparkles
+    end
   end
 
   private
