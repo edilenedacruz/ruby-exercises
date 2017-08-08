@@ -7,7 +7,7 @@
 * `shovel_csv_test.rb`
 * `shovel_face_test.rb`
 * `shift_date_test.rb`
-* `shift_fixnum_test.rb`
+* `shift_integer_test.rb`
 * `hash_default_test.rb`
 
 ### Fix bugs
